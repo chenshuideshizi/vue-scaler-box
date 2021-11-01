@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import BetterScaleBox from './lib/better-scale'
+import BetterScaleBox from './lib/scaler-box'
 
 export default {
   name: 'App',

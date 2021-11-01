@@ -1,2 +1,2 @@
-# vue-better-scale
+# vue-scaler-box
 

@@ -1,11 +1,11 @@
-import betterScale from './better-scale.vue'
+import scalerBox from './scaler-box.vue'
 
-betterScale.install = function (Vue) {
-  Vue.component(betterScale.name, betterScale)
+scalerBox.install = function (Vue) {
+  Vue.component(scalerBox.name, scalerBox)
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(betterScale)
+  window.Vue.use(scalerBox)
 }
 
-export default betterScale
+export default scalerBox

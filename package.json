@@ -1,11 +1,11 @@
 {
-  "name": "vue-better-scale",
+  "name": "vue-scaler-box",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress"
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production --progress"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,6 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
-    "cross-env": "^7.0.3",
     "css-loader": "^6.4.0",
     "file-loader": "^6.2.0",
     "node-sass": "^6.0.1",

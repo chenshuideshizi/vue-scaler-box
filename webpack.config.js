@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-better-scale.js',
-    library: 'betterScale',
+    filename: 'vue-scaler-box.js',
+    library: 'scalerBox',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
