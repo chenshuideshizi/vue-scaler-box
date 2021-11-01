@@ -1,13 +1,13 @@
 {
-  "name": "vue-scaler-box",
-  "version": "1.0.0",
+  "name": "@fwx/vue-scaler-box",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production --progress"
   },
-  "keywords": [],
+  "keywords": ["vue", "vue scale", "vue scale box"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
